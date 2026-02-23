@@ -1,16 +1,16 @@
 class Tbreakout < Formula
   desc "Retro terminal Breakout game written in Go using tcell"
   homepage "https://github.com/Geralt-Of-Rivia-Witcher/tbreakout"
-  version "0.1.6"
+  version "0.1.67"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Geralt-Of-Rivia-Witcher/tbreakout/releases/download/v0.1.6/tbreakout-darwin-arm64"
-      sha256 "981110dbdd86af6739afa5a62dcf06b6bccfe2f88c4aef32aa2b1783e467357c"
+      url "https://github.com/Geralt-Of-Rivia-Witcher/tbreakout/releases/download/v0.1.67/tbreakout-darwin-arm64"
+      sha256 "dcda24d09cb392ce3d4eeaab6deda2f3c0d07ec6abdb594392222edbd72e0e04"
     else
-      url "https://github.com/Geralt-Of-Rivia-Witcher/tbreakout/releases/download/v0.1.6/tbreakout-darwin-amd64"
-      sha256 "0fff1be256e1d54bc776440beb7700f47f9bbf2d2f26ed1a4fd9d8044c886fc4"
+      url "https://github.com/Geralt-Of-Rivia-Witcher/tbreakout/releases/download/v0.1.67/tbreakout-darwin-amd64"
+      sha256 "cd6136f15013b5441e5d07744cedb2dcbc809ab87727837b85886d08d5b15e28"
     end
   end
 
